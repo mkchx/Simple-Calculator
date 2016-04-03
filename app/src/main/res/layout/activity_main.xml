@@ -1,0 +1,132 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/output_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:paddingTop="40dp">
+
+        <TextView
+            android:id="@+id/output_text"
+            style="@style/OutputText" />
+
+        <TextView
+            android:layout_below="@+id/output_text"
+            android:id="@+id/output_result"
+            style="@style/OutputPerformedText" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/input_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorDarkGray"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/colorLightGray"
+            android:elevation="4dp">
+
+            <android.support.v7.widget.AppCompatButton
+                android:text="@string/clear"
+                style="@style/Button"/>
+
+            <android.support.v7.widget.AppCompatButton
+                android:text="@string/division"
+                style="@style/Button"/>
+
+            <android.support.v7.widget.AppCompatButton
+                android:text="@string/multiplication"
+                style="@style/Button"/>
+
+            <android.support.v7.widget.AppCompatButton
+                android:text="@string/minus"
+                style="@style/Button"/>
+
+            <android.support.v7.widget.AppCompatButton
+                android:text="@string/plus"
+                style="@style/Button"/>
+
+            <android.support.v7.widget.AppCompatButton
+                android:text="@string/backspace"
+                style="@style/Button"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/group">
+
+            <android.support.v7.widget.AppCompatButton
+                android:text="@string/seven"
+                style="@style/Button"/>
+
+            <android.support.v7.widget.AppCompatButton
+                android:text="@string/four"
+                style="@style/Button"/>
+
+            <android.support.v7.widget.AppCompatButton
+                android:text="@string/one"
+                style="@style/Button"/>
+
+            <android.support.v7.widget.AppCompatButton
+                android:text="@string/zero"
+                style="@style/Button"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/group">
+
+            <android.support.v7.widget.AppCompatButton
+                android:text="@string/eight"
+                style="@style/Button"/>
+
+            <android.support.v7.widget.AppCompatButton
+                android:text="@string/five"
+                style="@style/Button"/>
+
+            <android.support.v7.widget.AppCompatButton
+                android:text="@string/two"
+                style="@style/Button"/>
+
+            <android.support.v7.widget.AppCompatButton
+                android:text="@string/dot"
+                style="@style/Button"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/group">
+
+            <android.support.v7.widget.AppCompatButton
+                android:text="@string/nine"
+                style="@style/Button"/>
+
+            <android.support.v7.widget.AppCompatButton
+                android:text="@string/six"
+                style="@style/Button"/>
+
+            <android.support.v7.widget.AppCompatButton
+                android:text="@string/three"
+                style="@style/Button"/>
+
+            <android.support.v7.widget.AppCompatButton
+                android:text="@string/result"
+                style="@style/Button"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

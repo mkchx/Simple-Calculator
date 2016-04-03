@@ -1,0 +1,58 @@
+<resources>
+
+    <style name="OutputText">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+
+        <item name="android:gravity">right|center_vertical</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+
+        <item name="android:textColor">@color/colorDarkGray</item>
+        <item name="android:textSize">47sp</item>
+
+    </style>
+
+    <style name="OutputPerformedText" parent="OutputText">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+
+        <item name="android:gravity">right|center_vertical</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+
+        <item name="android:textColor">@color/colorDarkGray</item>
+        <item name="android:textSize">36sp</item>
+
+    </style>
+
+    <style name="Button">
+
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+
+        <item name="android:layout_weight">1</item>
+        <item name="android:onClick">onButtonClick</item>
+
+        <item name="android:background">?attr/selectableItemBackgroundBorderless</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">24sp</item>
+
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+    </style>
+
+    <style name="group">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+
+        <item name="android:layout_weight">1</item>
+
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+
+    </style>
+
+</resources>
